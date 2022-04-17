@@ -1,0 +1,12 @@
+CRITICAL - 2022-04-05 03:27:45 --> Undefined constant "App\Controllers\home"
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 03:29:22 --> Undefined constant "App\Controllers\home"
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

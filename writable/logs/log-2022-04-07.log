@@ -1,0 +1,892 @@
+ERROR - 2022-04-07 04:11:46 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-07 04:11:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->index()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-07 04:12:20 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-07 04:12:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->index()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-07 04:12:22 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-07 04:12:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->index()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-07 04:12:37 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-07 04:12:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(10): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->index()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 04:59:47 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 04:59:56 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:00:25 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:00:31 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:02:36 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:03:12 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:03:41 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:03:49 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:03:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:09 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:11 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:13 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:07:15 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:08:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:08:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:08:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:08:23 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:08:23 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:08:23 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:08:24 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:08:24 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:16 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:16 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:16 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:18 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:18 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:18 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:20 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:20 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:20 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:09:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:12:46 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:12:46 --> Undefined variable $Ll_tags
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:13:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:13:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:13:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:23:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:23:14 --> Object of class App\Entities\Tags could not be converted to string
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 05:23:35 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:23:35 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:23:35 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:25:35 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:25:35 --> Undefined variable $variable
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:25:59 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:25:59 --> Array to string conversion
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:26:11 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:26:11 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:26:11 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:26:29 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:26:29 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:26:29 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:26:48 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:26:48 --> Object of class App\Entities\Tags could not be converted to string
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 05:27:29 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:27:29 --> Object of class App\Entities\Tags could not be converted to string
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 05:27:41 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:27:41 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:27:41 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:28:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:28:04 --> Attempt to read property "name_recipies" on int
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:29:43 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:29:43 --> Attempt to read property "name_recipies" on int
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:30:03 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:30:03 --> Array to string conversion
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:31:30 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:31:30 --> Object of class App\Entities\Tags could not be converted to string
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 05:31:48 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:31:48 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:32:07 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:32:07 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:32:07 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:32:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:32:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:32:23 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:32:36 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:32:36 --> Object of class App\Entities\Tags could not be converted to string
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 05:34:09 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:34:09 --> Object of class App\Entities\Tags could not be converted to string
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 05:34:31 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:34:31 --> Attempt to read property "name_recipies" on int
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:36:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:36:21 --> Attempt to read property "name_recipies" on int
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:36:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:36:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:36:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:37:10 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:37:10 --> Attempt to read property "name_tag" on int
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:37:29 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:37:29 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:37:29 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:37:40 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:37:40 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:37:40 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:39:38 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:39:38 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:39:38 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:40:08 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:40:08 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:40:09 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:40 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:40 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:40 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:41 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:41 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:41 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:43 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:43 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:45 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:45 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:45 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:47 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:41:47 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:34 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:34 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:34 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:42:59 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:00 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:01 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:01 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:01 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:03 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:05 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:05 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:06 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:06 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:06 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:06 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:06 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:06 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:06 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:15 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:15 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:15 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:43:32 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:50:20 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:50:20 --> Attempt to read property "id_tag" on int
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\all_tags.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/all_tags', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/all_tags', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(11): App\Controllers\BaseController->renderTemplateTag('all_tags', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->all()
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 05:50:36 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:50:36 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:50:36 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:04 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:20 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:20 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:56 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:56 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:56 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:59 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:51:59 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:54:59 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:54:59 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:54:59 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:55:01 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:55:36 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:55:37 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:55:37 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:55:38 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:55:38 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:55:38 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 05:55:39 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:49:49 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:50:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:50:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:50:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:50:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 06:50:21 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 06:50:21 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 06:53:55 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:53:55 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:53:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:53:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:53:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:53:58 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 06:53:58 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 06:53:58 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('2')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 06:54:57 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:54:58 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:54:59 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:00 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:00 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:00 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:00 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:00 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:01 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 06:55:01 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 06:55:01 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('2')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 06:55:47 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 06:55:47 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 06:55:47 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('2')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 06:55:48 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:49 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:50 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:50 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:50 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:55:52 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 06:55:52 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 06:55:52 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('2')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 06:56:11 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:56:11 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:56:11 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:56:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 06:56:14 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 06:56:14 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 06:58:25 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:25 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:26 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:26 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:26 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:27 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:27 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:27 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:27 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:27 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:58:28 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 06:58:28 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 06:58:28 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('2')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 06:59:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:59:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:59:23 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:59:23 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:59:23 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 06:59:25 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 06:59:25 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 06:59:25 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('3')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('3')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 07:01:20 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:01:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:01:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:01:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:01:22 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:01:23 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 07:01:23 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:01:23 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('2')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 07:02:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:02:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:02:14 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:02:17 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:02:17 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:02:17 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-04-07 07:02:19 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Cache).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-04-07 07:02:19 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:02:19 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('4')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:05:42 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:05:42 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('4')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:05:49 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:05:49 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:32 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:32 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:32 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:32 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:32 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:32 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:33 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:34 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:34 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:46 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:46 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:46 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:46 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:46 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:46 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:47 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:47 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:06:47 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:06:47 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-07 07:10:43 --> Unknown column 'tag.id' in 'where clause'
+CRITICAL - 2022-04-07 07:10:43 --> Unknown column 'tag.id' in 'where clause'
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(38): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('1')
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 07:27:09 --> Undefined variable $tags
+#0 C:\xampp\htdocs\fil_rouge_code_igniter\app\Views\tags\one_tag.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Common.php(1089): CodeIgniter\View\View->render('tags/one_tag', Array, true)
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\BaseController.php(77): view('tags/one_tag', Array)
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\app\Controllers\Tags.php(39): App\Controllers\BaseController->renderTemplateTag('one_tag', Array)
+#6 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(832): App\Controllers\Tags->one('3')
+#7 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tags))
+#8 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-07 15:31:36 --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\fil_rouge_code_igniter\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 439)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Debug\Toolbar.php(439): header('Content-Type: a...')
+#2 C:\xampp\htdocs\fil_rouge_code_igniter\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\fil_rouge_code_igniter\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\fil_rouge_code_igniter\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\fil_rouge_code_igniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-07 15:31:36 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\fil_rouge_code_igniter\app\Config\Events.php:32) in C:\xampp\htdocs\fil_rouge_code_igniter\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\fil_rouge_code_igniter\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

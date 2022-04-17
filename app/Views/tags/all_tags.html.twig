@@ -1,0 +1,17 @@
+{% extends "tags/base.html.twig"%}
+
+{% block content %}
+	<div id="content">
+		<div class="container">
+			<div class="col-12">
+				<h1>ALL-TAGS</h1>
+				<ul>
+					{% for tag in tags %}
+						<a href="one/{{tag.id_tag }}">
+							<li>{{ tag.name_tag }}</li>
+						</a>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+{% endblock %}
