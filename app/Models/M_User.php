@@ -33,6 +33,8 @@ class M_User extends Model
         return $data;
     }
 
+    
+
     public function login()
     {
         $data = [];
