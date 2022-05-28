@@ -9,6 +9,8 @@ class M_User extends Model
 
     protected $table = 'php_users';
     protected $allowedFields = ['Id_php_users', 'users_nickname', 'users_firstname', 'users_lastname', 'users_mail', 'users_password', 'users_statut', 'users_creation_date', 'users_adress', 'users_adress2', 'users_zip_code', 'Id_php_city'];
+    // protected $allowedFields = ['users_nickname', 'users_firstname', 'users_lastname', 'users_mail', 'users_password'];
+
     protected $beforeInsert = ['beforeInsert'];
     protected $update = ['beforeUpdate'];
 
@@ -26,8 +28,8 @@ class M_User extends Model
 
     protected function passwordHash(array $data)
     {
-        if (isset($data['data']['password']))
-            $data['data']['password'] = password_hash($data['data']['password'], PASSWORD_DEFAULT);
+        if (isset($data['data']['users_password']))
+            $data['data']['users_password'] = password_hash($data['data']['users_password'], PASSWORD_DEFAULT);
         return $data;
     }
 
@@ -90,19 +92,7 @@ class M_User extends Model
     
     public function register()
     {
-       //add users
-        $modelUser = new M_User();
-        $newUser = [
-            'users_nickname' => $this->request->getVar('nickname'),
-            'users_firstname' => $this->request->getVar('firstname'),
-            'users_lastname' => $this->request->getVar('lastname'),
-            'users_mail' => $this->request->getVar('mail'),
-            'users_password' => $this->request->getVar('password'),
-        ];
-        $modelUser->save($newUser);
-        $sessionregister = session();
-        $sessionregister->setFlashdata('success', 'Vous êtes bien enregistré !');
-        return redirect()->to('login');
+       
     }
 
 
