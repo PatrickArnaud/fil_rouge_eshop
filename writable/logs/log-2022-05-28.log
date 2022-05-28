@@ -129,3 +129,237 @@ CRITICAL - 2022-05-28 05:24:29 --> Invalid file: ./Views/common/V_Header.php
 #5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2022-05-28 05:25:55 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:25:55 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:25:57 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:25:57 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:25:57 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:25:57 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:25:57 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:02 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:11 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:18 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:21 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:21 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:21 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:21 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:21 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:21 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:25 --> Invalid file: ./Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:43 --> Invalid file: /Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/common/V...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('/Views/common/V...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('/Views/common/V...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:46 --> Invalid file: /Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/common/V...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('/Views/common/V...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('/Views/common/V...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:46 --> Invalid file: /Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/common/V...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('/Views/common/V...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('/Views/common/V...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:46 --> Invalid file: /Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/common/V...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('/Views/common/V...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('/Views/common/V...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:46 --> Invalid file: /Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/common/V...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('/Views/common/V...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('/Views/common/V...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:46 --> Invalid file: /Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/common/V...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('/Views/common/V...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('/Views/common/V...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:47 --> Invalid file: /Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/common/V...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('/Views/common/V...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('/Views/common/V...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:48 --> Invalid file: /Views/common/V_Header.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Views/common/V...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('/Views/common/V...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(9): view('/Views/common/V...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 05:26:54 --> Invalid file: ./Views/common/V_Nav.php
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./Views/common/...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('./Views/common/...', Array, true)
+#2 C:\wamp64\www\fil_rouge_eshop\app\Controllers\Home.php(10): view('./Views/common/...')
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
