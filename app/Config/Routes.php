@@ -17,7 +17,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('C_Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -31,8 +31,19 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/fil_rouge_eshop/public/', 'Home::index');
-$routes->get('/fil_rouge_eshop/public/recipe', 'C_Recipe::index');
+$routes->get('/', 'C_Home::index');
+$routes->get('article', 'C_Article::index');
+//$routes->get('/', 'C_Article_Details::index');
+$routes->get('recipe', 'C_Recipe::index');
+//$routes->get('/', 'C_Recipe_Details::index');
+$routes->get('cart', 'C_Cart::index');
+$routes->get('login', 'C_User::index');
+//$routes->get('register', 'C_User::register');
+$routes->match(['get','post'],'register', 'C_User::register');
+$routes->get('profile', 'C_Profile::index');
+
+
+
 
 /*
  * --------------------------------------------------------------------
