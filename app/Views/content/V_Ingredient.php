@@ -1,26 +1,26 @@
 
 <!-- Filtre -->
 
-<div class="filter_search d-inline-flex ">
-<form action="" method="POST">
+<div class="filter_search" class="d-flex row-cols-md-3 g-3">
+  <form action="" method="POST" class="col d-flex">
+    <label class="col" >Choisir ingredient :</label>
+    <select class="col" name="ingredientsType">
+        <!-- <option value="Choisir une recette" placeholder="Choisir une recette" aria-disabled="choisir"></option> -->
+      <option value=""></option>
+      <option value="fruit">Pomme</option>
+      <option value="vegetable" >Asperges</option>
+      <option value="red-fruit" >Tomates</option>
+      <option value="green-vegetable" >Haricots verts</option>
+    </select>
 
-        <label>Choisir ingredient :</label>
-        <select name="ingredientsType">
-            <!-- <option value="Choisir une recette" placeholder="Choisir une recette" aria-disabled="choisir"></option> -->
-            <option value=""></option>
-            <option value="fruit">Pomme</option>
-            <option value="vegetable" >Asperges</option>
-            <option value="red-fruit" >Tomates</option>
-            <option value="green-vegetable" >Haricots verts</option>
-        </select>
-        <br><br>
+    <div class="d-flex">
+        <input class="col" type="text" name="ingredient_name" />
 
-        <input type="text" name="ingredient_name" size="80" maxlength="80" />
-        <br><br>
+        <input class="col" type="submit" name="search" value="Search" />
+    </div>
+      
 
-        <input type="submit" name="search" value="Search" />
-
-    </form>
+  </form>
 </div>
 
 
