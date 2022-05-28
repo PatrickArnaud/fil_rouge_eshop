@@ -6,6 +6,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        $this->renderTemplate("home");
+        return view('welcome_message');
     }
 }

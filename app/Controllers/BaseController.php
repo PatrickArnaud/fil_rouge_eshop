@@ -9,7 +9,6 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 
-
 /**
  * Class BaseController
  *
@@ -46,44 +45,8 @@ class BaseController extends Controller
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
 
-
-
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();
-
-        $config = [
-            'functions' => ['my_helper'],
-            'functions_safe' => ['my_safe_helper'],
-        ];
-        $this->twig = new \Kenjis\CI4Twig\Twig($config);
-    }
-
-    public function renderTemplate(string $page = 'home', array $data = [])
-    {
-        if (!is_file(APPPATH . '/Views/content/' . $page . '.php')) {
-            // Whoops, we don't have a page for that!
-            throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
-        }
-        $i = strrpos($page, "/");
-        $title = str_replace('-', ' ', substr($page, $i + 1));
-        $data['title'] = ucwords($title);
-        echo view('common/header', $data);
-        echo view('content/' . $page, $data);
-        echo view('common/footer', $data);
-    }
-
-    public function renderTemplateTag(string $page = 'home', array $data = [])
-    {
-        if (!is_file(APPPATH . '/Views/tags/' . $page . '.php')) {
-            // Whoops, we don't have a page for that!
-            throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
-        }
-        $i = strrpos($page, "/");
-        $title = str_replace('-', ' ', substr($page, $i + 1));
-        $data['title'] = ucwords($title);
-        echo view('common/header', $data);
-        echo view('tags/' . $page, $data);
-        echo view('common/footer', $data);
     }
 }
