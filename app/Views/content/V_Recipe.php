@@ -1,9 +1,11 @@
+<!-- Filtre -->
+
 <div class="filter_search d-inline-flex ">
 <form action="" method="POST">
 
         <label>Add Filter :</label>
         <select name="recipeType">
-            <option value=""></option>
+            <!-- <option value="Choisir une recette" placeholder="Choisir une recette" aria-disabled="choisir"></option> -->
             <option value="easy">Recettes facile à faire</option>
             <option value="traditional" >Recettes traditionnelles</option>
             <option value="seasonal" >Recettes de saison</option>
@@ -19,10 +21,7 @@
     </form>
 </div>
 
-
-
-
-
+<!-- Liste des recettes -->
 <div class="row">
     <div class="col-12">
         <div class="product-info">
@@ -40,7 +39,7 @@
                                             </a>
                                             <div class="button-head">
                                                 <div class="product-action-2">
-                                                    <a title="Add to cart" href="#">Add to cart</a>
+                                                    <a title="Add to cart" href="#">Ajouter au panier</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +61,7 @@
                                             </a>
                                             <div class="button-head">
                                                 <div class="product-action-2">
-                                                    <a title="Add to cart" href="#">Add to cart</a>
+                                                    <a title="Add to cart" href="#">Ajouter au panier</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -84,7 +83,7 @@
                                             <div class="button-head">
             
                                                 <div class="product-action-2">
-                                                    <a title="Add to cart" href="#">Add to cart</a>
+                                                    <a title="Add to cart" href="#">Ajouter au panier</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -108,7 +107,7 @@
                                             <div class="button-head">
                                             
                                                 <div class="product-action-2">
-                                                    <a title="Add to cart" href="#">Add to cart</a>
+                                                    <a title="Add to cart" href="#">Ajouter au panier</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -131,7 +130,7 @@
                                             <div class="button-head">
                                                 
                                                 <div class="product-action-2">
-                                                    <a title="Add to cart" href="#">Add to cart</a>
+                                                    <a title="Add to cart" href="#">Ajouter au panier</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -155,7 +154,7 @@
                                             <div class="button-head">
                                                
                                                 <div class="product-action-2">
-                                                    <a title="Add to cart" href="#">Add to cart</a>
+                                                    <a title="Add to cart" href="#">Ajouter au panier</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -178,7 +177,7 @@
                                             <div class="button-head">
                                                
                                                 <div class="product-action-2">
-                                                    <a title="Add to cart" href="#">Add to cart</a>
+                                                    <a title="Add to cart" href="#">Ajouter au panier</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -202,7 +201,7 @@
                                             <div class="button-head">
                                             
                                                 <div class="product-action-2">
-                                                    <a title="Add to cart" href="#">Add to cart</a>
+                                                    <a title="Add to cart" href="#">Ajouter au panier</a>
                                                 </div>
                                             </div>
                                         </div>

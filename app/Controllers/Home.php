@@ -9,7 +9,8 @@ class Home extends BaseController
         echo view('Views/common/V_Header.php',);
         echo view('Views/common/V_Nav.php',);
         echo view('Views/content/V_Home.php');
-    //    echo view('Views/content/V_Recipe.php');
+        echo view('Views/content/V_Recipe.php');
+        echo view('Views/content/V_Ingredient.php');
         echo view('Views/common/V_Footer.php');
     }
 }
