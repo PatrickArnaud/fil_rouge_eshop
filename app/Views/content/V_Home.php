@@ -1,1 +1,1 @@
-<h1>STEPH HOME</h1>
+<h1>HOME PAGE</h1>
