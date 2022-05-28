@@ -37,7 +37,9 @@ $routes->get('/', 'C_Article_Details::index');
 $routes->get('recipe', 'C_Recipe::index');
 $routes->get('/', 'C_Recipe_Details::index');
 $routes->get('cart', 'C_Cart::index');
-$routes->get('login', 'C_Login::index');
+$routes->get('login', 'C_User::index');
+$routes->get('register', 'C_User::register');
+$routes->match(['get','post'],'C_Users/register', 'C_Users::register');
 $routes->get('profile', 'C_Profile::index');
 
 
