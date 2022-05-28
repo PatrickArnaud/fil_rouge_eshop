@@ -1,6 +1,7 @@
 
 </body>
 <footer>
+<<<<<<< Updated upstream
 <!-- Jquery -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery-migrate-3.0.0.js"></script>
@@ -33,5 +34,8 @@
 	<script src="assets/js/easing.js"></script>
 	<!-- Active JS -->
 	<script src="assets/js/active.js"></script>
+=======
+footer 
+>>>>>>> Stashed changes
 </footer>
 </html>
