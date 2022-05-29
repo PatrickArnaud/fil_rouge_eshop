@@ -128,6 +128,6 @@ class C_User extends BaseController
     public function logout()
     {
         session()->destroy();
-        return redirect()->to('/');
+        return redirect()->to('http://localhost/fil_rouge_eshop/public/C_Home');
     }
 }

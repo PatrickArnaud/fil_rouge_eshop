@@ -2,6 +2,9 @@
 
 namespace Config;
 
+use App\Filters\Auth;
+
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -34,16 +37,16 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'C_Home::index');
 $routes->get('article', 'C_Article::index');
 //$routes->get('/', 'C_Article_Details::index');
-$routes->get('recipe', 'C_Recipe::index');
+$routes->get('recipe', 'C_Recipe::index'); 
 //$routes->get('/', 'C_Recipe_Details::index');
-$routes->get('cart', 'C_Cart::index');
-$routes->get('login', 'C_User::index');
+$routes->get('cart', 'C_Cart::index',['filter'=>'auth']);
+$routes->get('login', 'C_User::index',['filter'=>'noauth']);
+$routes->get('logout', 'C_User::logout');
 //$routes->get('register', 'C_User::register');
-$routes->match(['get','post'],'register', 'C_User::register');
-$routes->match(['get','post'],'login', 'C_User::login');
-$routes->get('profile', 'C_Profile::index');
-
-
+$routes->match(['get','post'],'register', 'C_User::register',['filter'=>'noauth']);
+$routes->match(['get','post'],'login', 'C_User::login',['filter'=>'noauth']);
+$routes->get('profile', 'C_Profile::index',['filter'=>'auth']);
+$routes->get('C_Profile', 'C_Profile::index',['filter'=>'auth']);
 
 
 /*

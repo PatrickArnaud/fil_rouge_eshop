@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
       Catégorie de recettes
     </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -11,9 +11,9 @@
     </div>
   </li>
 
-  
 
-  
+
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -25,15 +25,23 @@
       <li class="nav-item">
         <a class="nav-link" href="article">Articles</a>
       </li>
+      <?php if (session()->get('isLogged')) : ?>
       <li class="nav-item">
         <a class="nav-link" href="cart">Panier</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="profile">Profil</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="login">Se Connecter</a>
-      </li>
+      <?php endif; ?>
+      <?php if (session()->get('isLogged')) : ?>
+        <li class="nav-item">
+          <a class="nav-link" href="logout">Se Deconnecter</a>
+        <?php endif; ?>
+        <?php if (!session()->get('isLogged')) : ?>
+          <li class="nav-item">
+          <a class="nav-link" href="login">Se Connecter</a>
+        <?php endif; ?>
+        </li>
     </ul>
   </div>
 </nav>
