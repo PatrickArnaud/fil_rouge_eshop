@@ -4,30 +4,33 @@
     </div>
 </div>
 <div class="container mt-5 bg-card">
-
     <div class="col-12">
-        <form>
+        <form action="login" method="POST">
             <!-- Email input -->
             <div class="form-outline mb-4 mt-5 ">
                 <label class="form-label">Pseudonyme</label>
-                <input type="email" id="form2Example1" name="nickname" class="form-control" />
+                <input type="text" id="form2Example1" name="users_nickname" class="form-control" />
             </div>
 
             <!-- Password input -->
             <div class="form-outline mb-4">
                 <label class="form-label">Mot de passe</label>
-                <input type="password" id="form2Example2" name="password" class="form-control" />
+                <input type="password" id="form2Example2" name="users_password" class="form-control" />
             </div>
+
+            <?php if (isset($validation)) : ?>
+                <div class="col-12 mt-3">
+                    <div class="alert alert-danger" role="alert">
+                        <?= $validation->listErrors() ?>
+                    </div>
+                </div>
+            <?php endif; ?>
+
 
             <div class="form-outline mb-4">
                 <a href="register"> Pas encore de compte ?</a>
             </div>
-
-
-            <!-- Submit button -->
-            <input class="offset-11 mb-3 btn-orange" type="button" value="Se connecter"></input>
-
-
+            <button class="offset-11 mb-3 btn-orange" type="submit" value="Se connecter">Se connecter</button>
         </form>
     </div>
 </div>

@@ -40,6 +40,7 @@ $routes->get('cart', 'C_Cart::index');
 $routes->get('login', 'C_User::index');
 //$routes->get('register', 'C_User::register');
 $routes->match(['get','post'],'register', 'C_User::register');
+$routes->match(['get','post'],'login', 'C_User::login');
 $routes->get('profile', 'C_Profile::index');
 
 

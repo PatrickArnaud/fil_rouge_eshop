@@ -67,7 +67,7 @@
 
                     <div class="row mt-5 mb-5">
                         <div class="col-12 col-sm-4">
-                            <button class="btn btn-orange" type="submit" value="Créez votre compte">add</button>
+                            <button class="btn btn-orange" type="submit" value="Créez votre compte">S'inscrire</button>
                         </div>
 
                         <div class="col-12 col-sm-8 text-right">
