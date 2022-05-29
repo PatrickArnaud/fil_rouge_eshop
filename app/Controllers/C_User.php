@@ -121,7 +121,7 @@ class C_User extends BaseController
             'users_statut' => $user['users_statut'],
             'isLogged' => true,
         ];
-        session()->set_userdata($data);
+        session()->set($data);
     }
 
 
