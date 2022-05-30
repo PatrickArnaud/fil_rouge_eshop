@@ -1,225 +1,105 @@
-<!-- Filtre -->
 <div class="container">
     <div class="col-12">
 
+        <!-- Filtre -->
 
-        <div class="filter_search d-inline-flex ">
-            <form action="" method="POST">
+        <div class="col-12">
 
-                <label>Add Filter :</label>
-                <select name="recipeType">
-                    <!-- <option value="Choisir une recette" placeholder="Choisir une recette" aria-disabled="choisir"></option> -->
-                    <option value="easy">Recettes facile à faire</option>
-                    <option value="traditional">Recettes traditionnelles</option>
-                    <option value="seasonal">Recettes de saison</option>
-                    <option value="gluten">Recettes sans gluten</option>
-                </select>
-                <br><br>
+            <div class="filter_search" class=" row-cols-md-3 g-3">
+                <form action="" method="POST" class="col d-flex">
+                    <label class="col">Add Filter :</label>
+                    <select class="col" name="recipeType">
+                        <option value=""></option>
+                        <option value="fruit">Pomme</option>
+                        <option value="vegetable">Asperges</option>
+                        <option value="red-fruit">Tomates</option>
+                        <option value="green-vegetable">Haricots verts</option>
+                    </select>
 
-                <input type="text" name="nom" size="50" maxlength="50" />
-                <br><br>
+            </div>
 
-                <input type="submit" name="search" value="Search" />
+            <div class="col-12">
+                <div class="d-flex">
+                    <input class="col" yype="text" name="ingredient_name" />
+                    <input class="col" type="submit" name="search" value="Search" />
+                </div>
+                </form>
+            </div>
 
-            </form>
         </div>
 
-        <!-- Liste des recettes -->
-        <div class="row">
-            <div class="col-12">
-                <div class="product-info">
-                    <div class="tab-content" id="myTabContent">
-                        <!-- Start Single Tab -->
-                        <div class="tab-pane fade show active" id="man" role="tabpanel">
-                            <div class="tab-single">
-                                <div class="row">
-                                    <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-                                        <div class="single-product">
-                                            <div class="product-img">
-                                                <a href="product-details.html">
-                                                    <img class="default-img" src="../../../public/assets/img/recipe1.jpg" alt="#">
-                                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                </a>
-                                                <div class="button-head">
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Ajouter au panier</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <div class="product-price">
-                                                    <span>Ranking stars</span>
-                                                </div>
-                                                <h3><a href="product-details.html">Recipe Name</a></h3>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-                                        <div class="single-product">
-                                            <div class="product-img">
-                                                <a href="product-details.html">
-                                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                </a>
-                                                <div class="button-head">
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Ajouter au panier</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <div class="product-price">
-                                                    <span>Ranking stars</span>
-                                                </div>
-                                                <h3><a href="product-details.html">Recipe Name</a></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-                                        <div class="single-product">
-                                            <div class="product-img">
-                                                <a href="product-details.html">
-                                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                </a>
-                                                <div class="button-head">
-
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Ajouter au panier</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <div class="product-price">
-                                                    <span>Ranking stars</span>
-                                                </div>
-                                                <h3><a href="product-details.html">Recipe Name</a></h3>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-                                        <div class="single-product">
-                                            <div class="product-img">
-                                                <a href="product-details.html">
-                                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <span class="new">New</span>
-                                                </a>
-                                                <div class="button-head">
-
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Ajouter au panier</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <div class="product-price">
-                                                    <span>Ranking stars</span>
-                                                </div>
-                                                <h3><a href="product-details.html">Recipe Name</a></h3>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-                                        <div class="single-product">
-                                            <div class="product-img">
-                                                <a href="product-details.html">
-                                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                </a>
-                                                <div class="button-head">
-
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Ajouter au panier</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <div class="product-price">
-                                                    <span>Ranking stars</span>
-                                                </div>
-                                                <h3><a href="product-details.html">Recipe Name</a></h3>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-                                        <div class="single-product">
-                                            <div class="product-img">
-                                                <a href="product-details.html">
-                                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <span class="price-dec">30% Off</span>
-                                                </a>
-                                                <div class="button-head">
-
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Ajouter au panier</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <div class="product-price">
-                                                    <span>Ranking stars</span>
-                                                </div>
-                                                <h3><a href="product-details.html">Recipe Name</a></h3>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-                                        <div class="single-product">
-                                            <div class="product-img">
-                                                <a href="product-details.html">
-                                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                </a>
-                                                <div class="button-head">
-
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Ajouter au panier</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <div class="product-price">
-                                                    <span>Ranking stars</span>
-                                                </div>
-                                                <h3><a href="product-details.html">Recipe Name</a></h3>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-4 col-md-4 col-12">
-                                        <div class="single-product">
-                                            <div class="product-img">
-                                                <a href="product-details.html">
-                                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-                                                    <span class="out-of-stock">Hot</span>
-                                                </a>
-                                                <div class="button-head">
-
-                                                    <div class="product-action-2">
-                                                        <a title="Add to cart" href="#">Ajouter au panier</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-content">
-                                                <div class="product-price">
-                                                    <span>Ranking stars</span>
-                                                </div>
-                                                <h3><a href="product-details.html">Recipe Name</a></h3>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking stars</h5><br>
+                        <p class="card-text">Recipe Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking stars</h5><br>
+                        <p class="card-text">Recipe Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking stars</h5><br>
+                        <p class="card-text">Recipe Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking stars</h5><br>
+                        <p class="card-text">Recipe Name</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 mb-5">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking stars</h5><br>
+                        <p class="card-text">Recipe Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking stars</h5><br>
+                        <p class="card-text">Recipe Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking stars</h5><br>
+                        <p class="card-text">Recipe Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                    <div class="card-body">
+                        <h5 class="card-title">Ranking stars</h5><br>
+                        <p class="card-text">Recipe Name</p>
                     </div>
                 </div>
             </div>
