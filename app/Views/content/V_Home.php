@@ -1,4 +1,4 @@
-<section class="my-carousel p-3 mb-3">
+<section class="my-carousel p-3 mb-5 d-flex justify-content-center">
     <div id="carouselExampleControls" class="carousel slide w-75" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
