@@ -2,16 +2,16 @@
     <div id="carouselExampleControls" class="carousel slide w-75" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://via.placeholder.com/550x750" class="d-block w-100" alt="myCarousel1">
+                <img src="https://via.placeholder.com/550x300" class="d-block w-100" alt="myCarousel1">
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/550x750" class="d-block w-100" alt="myCarousel2">
+                <img src="https://via.placeholder.com/550x300" class="d-block w-100" alt="myCarousel2">
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/550x750" class="d-block w-100" alt="myCarousel3">
+                <img src="https://via.placeholder.com/550x300" class="d-block w-100" alt="myCarousel3">
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/550x750" class="d-block w-100" alt="myCarousel4">
+                <img src="https://via.placeholder.com/550x300" class="d-block w-100" alt="myCarousel4">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
