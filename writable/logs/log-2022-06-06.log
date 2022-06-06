@@ -311,3 +311,344 @@ CRITICAL - 2022-06-06 11:05:55 --> Undefined property: stdClass::$id_php_product
 #7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-06-06 11:55:55 --> Creating default object from empty value
+#0 C:\wamp64\www\fil_rouge_eshop\app\Config\Routes.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\wamp64\\www\\f...', 50, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(713): require('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 12:11:40 --> Class 'App\Models\M_Ingredient' not found
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include()
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#3 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 12:11:45 --> Class 'App\Models\M_Ingredient' not found
+#0 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include()
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#3 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-06 12:34:41 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:34:41 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:36:02 --> Champ 'e' inconnu dans where clause
+CRITICAL - 2022-06-06 12:36:02 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('e')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:36:30 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:36:30 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:36:35 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:36:35 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:36:38 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:36:38 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:36:51 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:36:51 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:37:08 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:37:08 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:37:09 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:37:09 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:37:09 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:37:09 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:37:25 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:37:25 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:37:37 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:37:37 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:39:39 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 48, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:39:58 --> Undefined property: stdClass::$id
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 48, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:40:11 --> Undefined property: stdClass::$id_php_article
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 48, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:40:35 --> Undefined property: stdClass::$id_php_products
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 48, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:40:48 --> Undefined property: stdClass::$id_php_products
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 48, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:40:59 --> Undefined property: stdClass::$id_php_products
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 48, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:41:20 --> Undefined property: stdClass::$id_php_products
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 49, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:41:23 --> Undefined property: stdClass::$id_php_products
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 49, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:41:24 --> Undefined property: stdClass::$id_php_products
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 49, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 12:41:31 --> Undefined property: stdClass::$id_php_products
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 49, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:42:17 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:42:17 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:42:30 --> Champ 'e' inconnu dans where clause
+CRITICAL - 2022-06-06 12:42:30 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('e')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:43:33 --> Champ 'e' inconnu dans where clause
+CRITICAL - 2022-06-06 12:43:33 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('e')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:43:33 --> Champ 'e' inconnu dans where clause
+CRITICAL - 2022-06-06 12:43:33 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('e')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:43:44 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:43:44 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 12:45:12 --> Champ 's' inconnu dans where clause
+CRITICAL - 2022-06-06 12:45:12 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Article_Details.php(8): App\Models\M_Article->getOneIngredients('s')
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Article_Details.php(11): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Article_Details->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Article_Details))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

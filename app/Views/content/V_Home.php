@@ -1,13 +1,12 @@
 <?php
 
-use App\Models\M_Ingredient;
+use App\Models\M_Article;
 use App\Models\M_Recipes;
 
 $recModel = new M_Recipes();
-$ingModel = new M_Ingredient();
+$ingModel = new M_Article();
 $recipe = $recModel->getAllrecipes();
 $ing = $ingModel->getAllIngredients();
-
 ?>
 
 <div class="container m-5">
@@ -15,7 +14,6 @@ $ing = $ingModel->getAllIngredients();
     <h1 style="text-align: center;" > Bienvenue chez Nesti </h1>
 </div>
 </div>
-
 <section class="my-carousel p-3 mb-5 d-flex justify-content-center">
     <div id="carouselExampleControls" class="carousel slide w-75" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -60,7 +58,7 @@ $ing = $ingModel->getAllIngredients();
                         <div class="card-body">
                             <p class="card-text"><?= "Difficultée : " . $recipe[$i]->difficulty . "/5" ?></p> <br>
                             <h5 class="card-title"><?= $recipe[$i]->name ?></h5>
-                            <a type="button" href="detailrecipe/<?= $recipe[$i]->id ?>" class="btn btn-orange"> Voir la recette </a>
+                            <a type="button" href="rec_details/<?= $recipe[$i]->id ?>" class="btn btn-orange"> Voir la recette </a>
                         </div>
 
                     </div>
@@ -85,7 +83,7 @@ $ing = $ingModel->getAllIngredients();
                         <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
                         <div class="card-body">
                             <h5 class="card-title"><?= $ing[$i]->products_name ?></h5>
-                            <a type="button" href="detailrecipe/<?= $ing[$i]->Id_php_products ?>" class="btn btn-orange"> Voir l'article </a>
+                            <a type="button" href="ing_details/<?= $ing[$i]->Id_php_products ?>" class="btn btn-orange"> Voir l'article </a>
                         </div>
 
                     </div>

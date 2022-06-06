@@ -42,7 +42,7 @@ use App\Models\M_Recipes;
                     <div class="card-body">
                     <p class="card-text"><?="Difficultée : ".$recipe[$i]->difficulty."/5"?></p> <br>
                         <h5 class="card-title"><?=  $recipe[$i]->name?></h5>
-                        <button href="" class="btn btn-orange"> Voir la recette  </button>
+                        <a type="button" href="rec_details/<?= $recipe[$i]->id ?>" class="btn btn-orange"> Voir la recette </a>
                     </div>
                 </div>
             </div>

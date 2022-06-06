@@ -38,7 +38,7 @@ $routes->get('/', 'C_Home::index');
 $routes->get('article', 'C_Article::index');
 //$routes->get('/', 'C_Article_Details::index');
 $routes->get('recipe', 'C_Recipe::index'); 
-//$routes->get('/', 'C_Recipe_Details::index');
+$routes->get('rec_details', 'C_Recipe_Details::index');
 $routes->get('cart', 'C_Cart::index',['filter'=>'auth']);
 $routes->get('login', 'C_User::index',['filter'=>'noauth']);
 $routes->get('logout', 'C_User::logout');
@@ -47,6 +47,11 @@ $routes->match(['get','post'],'register', 'C_User::register',['filter'=>'noauth'
 $routes->match(['get','post'],'login', 'C_User::login',['filter'=>'noauth']);
 $routes->get('profile', 'C_Profile::index',['filter'=>'auth']);
 $routes->get('C_Profile', 'C_Profile::index',['filter'=>'auth']);
+$routes->get('rec_details/(:any)', 'C_Recipe_Details::index');
+$routes->get('ing_details/(:any)', 'C_Article_Details::index');
+
+
+
 
 
 /*
