@@ -17,29 +17,29 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="./">Accueil </a>
+        <a class="nav-link" href="/fil_rouge_eshop/public">Accueil </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="recipe">Recettes</a>
+        <a class="nav-link" href="/fil_rouge_eshop/public/recipe">Recettes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="article">Articles</a>
+        <a class="nav-link" href="/fil_rouge_eshop/public/article">Articles</a>
       </li>
       <?php if (session()->get('isLogged')) : ?>
       <li class="nav-item">
-        <a class="nav-link" href="cart">Panier</a>
+        <a class="nav-link" href="/fil_rouge_eshop/public/cart">Panier</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="profile">Profil</a>
+        <a class="nav-link" href="/fil_rouge_eshop/public/profile">Profil</a>
       </li>
       <?php endif; ?>
       <?php if (session()->get('isLogged')) : ?>
         <li class="nav-item">
-          <a class="nav-link" href="logout">Se Deconnecter</a>
+          <a class="nav-link" href="/fil_rouge_eshop/public/logout">Se Deconnecter</a>
         <?php endif; ?>
         <?php if (!session()->get('isLogged')) : ?>
           <li class="nav-item">
-          <a class="nav-link" href="login">Se Connecter</a>
+          <a class="nav-link" href="/fil_rouge_eshop/public/login">Se Connecter</a>
         <?php endif; ?>
         </li>
     </ul>

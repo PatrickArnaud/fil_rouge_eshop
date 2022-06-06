@@ -1,8 +1,8 @@
 <?php
 
-use App\Models\M_Ingredient;
+use App\Models\M_Article;
 
-$ingModel = new M_Ingredient();
+$ingModel = new M_Article();
 $ing = $ingModel->getAllIngredients();
 
 ?>
@@ -10,11 +10,7 @@ $ing = $ingModel->getAllIngredients();
 
 <div class="container">
   <div class="col-12">
-
-    <!-- Filtre -->
-
     <div class="col-12">
-
       <div class="filter_search" class=" row-cols-md-3 g-3">
         <form action="" method="POST" class="col d-flex">
           <label class="col">Choisir ingredient :</label>
@@ -26,7 +22,6 @@ $ing = $ingModel->getAllIngredients();
             <option value="green-vegetable">Haricots verts</option>
           </select>
       </div>
-
       <div class="col-12">
         <div class="d-flex">
           <input class="col" yype="text" name="ingredient_name" />
@@ -34,21 +29,17 @@ $ing = $ingModel->getAllIngredients();
         </div>
         </form>
       </div>
-
     </div>
-
     <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
     <?php for ($i = 0; $i < sizeof($ing); $i++) {
-                # code...
             ?>
                 <div class="col mb-5">
                     <div class="card h-100">
                         <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
                         <div class="card-body">
                             <h5 class="card-title"><?= $ing[$i]->products_name ?></h5>
-                            <a type="button" href="detailrecipe/<?= $ing[$i]->Id_php_products ?>" class="btn btn-orange"> Voir l'article </a>
+                            <a type="button" href="ing_details/<?= $ing[$i]->Id_php_products ?>" class="btn btn-orange"> Voir l'article </a>
                         </div>
-
                     </div>
                 </div>
             <?php }; ?>      
