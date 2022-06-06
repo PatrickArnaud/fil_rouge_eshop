@@ -2,7 +2,6 @@
 
 use App\Models\M_Article;
 use App\Models\M_Recipes;
-
 $recModel = new M_Recipes();
 $ingModel = new M_Article();
 $recipe = $recModel->getAllrecipes();
@@ -10,9 +9,9 @@ $ing = $ingModel->getAllIngredients();
 ?>
 
 <div class="container m-5">
-<div class="col-12">
-    <h1 style="text-align: center;" > Bienvenue chez Nesti </h1>
-</div>
+    <div class="col-12">
+        <h1 style="text-align: center;"> Bienvenue chez Nesti </h1>
+    </div>
 </div>
 <section class="my-carousel p-3 mb-5 d-flex justify-content-center">
     <div id="carouselExampleControls" class="carousel slide w-75" data-bs-ride="carousel">
@@ -40,17 +39,11 @@ $ing = $ingModel->getAllIngredients();
         </button>
     </div>
 </section>
-
-
 <section class="container my-recipe mb-5">
     <div class="col-12">
-
-
         <h3 class="top_recipe cols-12" style="text-align: center;">NOS MEILLEURES RECETTES</h3>
-
         <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
             <?php for ($i = 0; $i < 4; $i++) {
-                # code...
             ?>
                 <div class="col mb-5">
                     <div class="card h-100">
@@ -67,16 +60,11 @@ $ing = $ingModel->getAllIngredients();
         </div>
     </div>
 </section>
-
-
 <section class="container my-ingredients mb-5">
     <div class="col-12">
-
         <h3 class="top_recipe cols-12" style="text-align: center;">NOS TOPS INGREDIENTS</h3>
-
         <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
             <?php for ($i = 0; $i < 4; $i++) {
-                # code...
             ?>
                 <div class="col mb-5">
                     <div class="card h-100">

@@ -10,10 +10,6 @@
       <a class="dropdown-item" href="#">Something else here</a>
     </div>
   </li>
-
-
-
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -45,5 +41,4 @@
     </ul>
   </div>
 </nav>
-
 <body>
