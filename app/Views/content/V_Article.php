@@ -6,8 +6,6 @@ $ingModel = new M_Article();
 $ing = $ingModel->getAllIngredients();
 
 ?>
-
-
 <div class="container">
   <div class="col-12">
     <div class="col-12">
