@@ -1,3 +1,13 @@
+<?php
+use App\Models\M_Recipes;
+
+  $recModel = new M_Recipes();
+        $recipe = $recModel->getAllrecipes();
+        
+?>
+
+
+
 <div class="container">
     <div class="col-12">
 
@@ -27,82 +37,24 @@
             </div>
 
         </div>
-
         <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
-            <div class="col">
+        <?php for ($i=0; $i  < sizeof($recipe) ; $i++)  { 
+                # code...
+             ?>
+      
+            <div class="col mb-5">
                 <div class="card h-100">
                     <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
                     <div class="card-body">
-                        <h5 class="card-title">Ranking stars</h5><br>
-                        <p class="card-text">Recipe Name</p>
+                    <p class="card-text"><?="Difficultée : ".$recipe[$i]->difficulty."/5"?></p> <br>
+                        <h5 class="card-title"><?=  $recipe[$i]->name?></h5>
+                        <button href="" class="btn btn-orange"> Voir la recette  </button>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Ranking stars</h5><br>
-                        <p class="card-text">Recipe Name</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Ranking stars</h5><br>
-                        <p class="card-text">Recipe Name</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Ranking stars</h5><br>
-                        <p class="card-text">Recipe Name</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4 my-5">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Ranking stars</h5><br>
-                        <p class="card-text">Recipe Name</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Ranking stars</h5><br>
-                        <p class="card-text">Recipe Name</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Ranking stars</h5><br>
-                        <p class="card-text">Recipe Name</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-                    <div class="card-body">
-                        <h5 class="card-title">Ranking stars</h5><br>
-                        <p class="card-text">Recipe Name</p>
-                    </div>
-                </div>
-            </div>
+            <?php }; ?>
         </div>
     </div>
+<div class="space"></div>
+
 </div>

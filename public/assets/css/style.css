@@ -6,3 +6,8 @@
 .btn-orange {
     background-color: #F7941D;
 }
+
+.space {
+    display: block;
+    height: 100px;
+}

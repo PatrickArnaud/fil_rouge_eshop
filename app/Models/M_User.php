@@ -9,8 +9,6 @@ class M_User extends Model
 
     protected $table = 'php_users';
     protected $allowedFields = ['Id_php_users', 'users_nickname', 'users_firstname', 'users_lastname', 'users_mail', 'users_password', 'users_statut', 'users_creation_date', 'users_adress', 'users_adress2', 'users_zip_code', 'Id_php_city'];
-    // protected $allowedFields = ['users_nickname', 'users_firstname', 'users_lastname', 'users_mail', 'users_password'];
-
     protected $beforeInsert = ['beforeInsert'];
     protected $update = ['beforeUpdate'];
 

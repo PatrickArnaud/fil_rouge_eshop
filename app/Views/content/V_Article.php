@@ -1,3 +1,13 @@
+<?php
+
+use App\Models\M_Ingredient;
+
+$ingModel = new M_Ingredient();
+$ing = $ingModel->getAllIngredients();
+
+?>
+
+
 <div class="container">
   <div class="col-12">
 
@@ -28,88 +38,20 @@
     </div>
 
     <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-          <div class="card-body">
-            <h5 class="card-title">Nom Ingredient</h5>
-            <p class="card-text">Prix €€</p> <br>
-            <p class="card-text">Ajouter au panier</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-          <div class="card-body">
-            <h5 class="card-title">Nom Ingredient</h5>
-            <p class="card-text">Prix €€</p> <br>
-            <p class="card-text">Ajouter au panier</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-          <div class="card-body">
-            <h5 class="card-title">Nom Ingredient</h5>
-            <p class="card-text">Prix €€</p> <br>
-            <p class="card-text">Ajouter au panier</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-          <div class="card-body">
-            <h5 class="card-title">Nom Ingredient</h5>
-            <p class="card-text">Prix €€</p> <br>
-            <p class="card-text">Ajouter au panier</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-          <div class="card-body">
-            <h5 class="card-title">Nom Ingredient</h5>
-            <p class="card-text">Prix €€</p> <br>
-            <p class="card-text">Ajouter au panier</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-          <div class="card-body">
-            <h5 class="card-title">Nom Ingredient</h5>
-            <p class="card-text">Prix €€</p> <br>
-            <p class="card-text">Ajouter au panier</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-          <div class="card-body">
-            <h5 class="card-title">Nom Ingredient</h5>
-            <p class="card-text">Prix €€</p> <br>
-            <p class="card-text">Ajouter au panier</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
-          <div class="card-body">
-            <h5 class="card-title">Nom Ingredient</h5>
-            <p class="card-text">Prix €€</p> <br>
-            <p class="card-text">Ajouter au panier</p>
-          </div>
-        </div>
-      </div>
+    <?php for ($i = 0; $i < sizeof($ing); $i++) {
+                # code...
+            ?>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/550x750" class="card-img-top default-img" alt="#">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $ing[$i]->products_name ?></h5>
+                            <a type="button" href="detailrecipe/<?= $ing[$i]->Id_php_products ?>" class="btn btn-orange"> Voir l'article </a>
+                        </div>
+
+                    </div>
+                </div>
+            <?php }; ?>      
     </div>
   </div>
 </div>

@@ -1,0 +1,313 @@
+CRITICAL - 2022-06-06 09:55:11 --> Class 'App\Models\M_Recipes' not found
+#0 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Recipe->index()
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Recipe))
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 10:01:58 --> Class 'App\Models\M_Recipes' not found
+#0 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 10:05:15 --> Call to undefined method App\Models\M_Recipes::getAllrecipes
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(14): CodeIgniter\Model->__call('getAllrecipes', Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:20:11 --> Use of undefined constant test - assumed 'test' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:22:33 --> Undefined property: stdClass::$id
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 14, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:23:36 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 10:25:45 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:06 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:07 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:07 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:08 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:09 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:09 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:09 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:09 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:26:29 --> syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\fil_rouge_eshop\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\f...')
+#1 C:\wamp64\www\fil_rouge_eshop\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 10:26:36 --> Undefined property: stdClass::$id
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 14, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:27:14 --> Trying to get property 'firstname' of non-object
+#0 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 16, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#2 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#3 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 10:35:03 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:35 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:36 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:36 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:36 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:36 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:36 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:37 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:37 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:37 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:35:37 --> Undefined variable: recipe
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 43, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(23): view('Views/content/V...', Array)
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 10:39:50 --> Undefined offset: 7
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\f...', 53, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(19): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:03:35 --> Undefined property: stdClass::$name
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 81, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(13): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:04:49 --> Undefined property: stdClass::$product_name
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 81, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(13): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:05:17 --> Undefined property: stdClass::$product_name
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 83, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(13): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:05:54 --> Undefined property: stdClass::$id_php_product
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 84, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(13): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 11:05:55 --> Undefined property: stdClass::$id_php_product
+#0 C:\wamp64\www\fil_rouge_eshop\app\Views\content\V_Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 84, Array)
+#1 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(210): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\fil_rouge_eshop\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\fil_rouge_eshop\system\Common.php(1089): CodeIgniter\View\View->render('Views/content/V...', Array, true)
+#4 C:\wamp64\www\fil_rouge_eshop\app\Controllers\C_Home.php(13): view('Views/content/V...')
+#5 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(832): App\Controllers\C_Home->index()
+#6 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Home))
+#7 C:\wamp64\www\fil_rouge_eshop\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\fil_rouge_eshop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
