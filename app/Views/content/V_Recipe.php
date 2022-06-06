@@ -5,14 +5,8 @@ use App\Models\M_Recipes;
         $recipe = $recModel->getAllrecipes();
         
 ?>
-
-
-
 <div class="container">
     <div class="col-12">
-
-        <!-- Filtre -->
-
         <div class="col-12">
 
             <div class="filter_search" class=" row-cols-md-3 g-3">
