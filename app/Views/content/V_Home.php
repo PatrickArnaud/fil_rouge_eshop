@@ -10,6 +10,11 @@ $ing = $ingModel->getAllIngredients();
 
 ?>
 
+<div class="container m-5">
+<div class="col-12">
+    <h1 style="text-align: center;" > Bienvenue chez Nesti </h1>
+</div>
+</div>
 
 <section class="my-carousel p-3 mb-5 d-flex justify-content-center">
     <div id="carouselExampleControls" class="carousel slide w-75" data-bs-ride="carousel">
@@ -72,7 +77,7 @@ $ing = $ingModel->getAllIngredients();
         <h3 class="top_recipe cols-12" style="text-align: center;">NOS TOPS INGREDIENTS</h3>
 
         <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
-        <?php for ($i = 0; $i < 4; $i++) {
+            <?php for ($i = 0; $i < 4; $i++) {
                 # code...
             ?>
                 <div class="col mb-5">
@@ -85,7 +90,7 @@ $ing = $ingModel->getAllIngredients();
 
                     </div>
                 </div>
-            <?php }; ?>      
+            <?php }; ?>
         </div>
     </div>
 </section>
